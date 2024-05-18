@@ -1,6 +1,6 @@
 import 'package:counter_app/pages/counter_page.dart';
 import 'package:counter_app/pages/home_page.dart';
-import 'package:counter_app/pages/text_page.dart';
+import 'package:counter_app/pages/user_input_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       routes: {
         '/counterpage': (context) => CounterPage(),
-        '/textpage': (context) => TextPage(),
+        '/textpage': (context) => UserInputPage(),
       },
     );
   }

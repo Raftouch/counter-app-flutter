@@ -1,5 +1,5 @@
 import 'package:counter_app/pages/counter_page.dart';
-import 'package:counter_app/pages/text_page.dart';
+import 'package:counter_app/pages/user_input_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
 
   final List _pages = [
     CounterPage(),
-    TextPage(),
+    UserInputPage(),
   ];
 
   @override
@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
               icon: Icon(Icons.calculate), label: 'COUNTER'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.read_more), label: 'TEXTFIELD'),
+              icon: Icon(Icons.read_more), label: 'USERINPUT'),
         ],
       ),
     );
