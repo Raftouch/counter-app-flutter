@@ -12,6 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('MyApp build called'); // Debug print
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
